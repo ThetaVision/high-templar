@@ -34,14 +34,14 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     install_requires=[
-        'python-dotenv == 0.21.1',
-        'aio-pika == 9.3.1',
-        'hypercorn == 0.14.3',
-        'quart == 0.11.2',
-        'frozendict == 2.4.6',
-        'aiohttp == 3.11.10',
-        'Jinja2 == 3.0.3',
-        'werkzeug == 2.1.2',
+        'python-dotenv >= 0.21.1',
+        'aio-pika >= 9.3.1',
+        'hypercorn >= 0.14.3',
+        'quart >= 0.11.2',
+        'frozendict >= 2.4.6',
+        'aiohttp >= 3.11.10',
+        'Jinja2 >= 3.0.3',
+        'werkzeug >= 2.1.2',
     ],
     test_suite='tests'
 )
